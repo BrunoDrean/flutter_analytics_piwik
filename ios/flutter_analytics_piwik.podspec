@@ -5,14 +5,14 @@
 Pod::Spec.new do |s|
   s.name             = 'flutter_analytics_piwik'
   s.version          = '1.0.3'
-  s.summary          = 'A new Flutter project.'
+  s.summary          = 'Alternative package for Piwik SDK'
   s.description      = <<-DESC
 A new Flutter project.
                        DESC
-  s.homepage         = 'http://example.com'
+  s.homepage         = 'https://github.com/NonowPoney/flutter_analytics_piwik'
   s.license          = { :file => '../LICENSE' }
-  s.author           = { 'Your Company' => 'email@example.com' }
-  s.source           = { :path => '.' }
+  s.author           = { 'Your Company' => 'bruno.drean@gmail.com' }
+  s.source           = { :git => 'https://github.com/NonowPoney/flutter_analytics_piwik.git' }
   s.source_files = 'Classes/**/*'
   s.static_framework = true
   s.dependency 'Flutter'
