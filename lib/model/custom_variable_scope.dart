@@ -1,0 +1,1 @@
+enum CustomVariableScope { action, visit }

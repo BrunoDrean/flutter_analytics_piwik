@@ -1,0 +1,29 @@
+PODS:
+  - Flutter (1.0.0)
+  - flutter_piwikpro (1.0.0):
+    - Flutter
+    - PiwikPROSDK (~> 1.1.3)
+  - PiwikPROSDK (1.1.3)
+
+DEPENDENCIES:
+  - Flutter (from `Flutter`)
+  - flutter_piwikpro (from `.symlinks/plugins/flutter_piwikpro/ios`)
+
+SPEC REPOS:
+  trunk:
+    - PiwikPROSDK
+
+EXTERNAL SOURCES:
+  Flutter:
+    :path: Flutter
+  flutter_piwikpro:
+    :path: ".symlinks/plugins/flutter_piwikpro/ios"
+
+SPEC CHECKSUMS:
+  Flutter: 50d75fe2f02b26cc09d224853bb45737f8b3214a
+  flutter_piwikpro: ce0253e9b90c608a6d199bc7086dd60b99b5df61
+  PiwikPROSDK: 9ca1be7beae9133c2cba29e8fee830f7d7dfe766
+
+PODFILE CHECKSUM: aafe91acc616949ddb318b77800a7f51bffa2a4c
+
+COCOAPODS: 1.11.3
