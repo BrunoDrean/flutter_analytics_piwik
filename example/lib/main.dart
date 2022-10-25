@@ -1,25 +1,25 @@
 // ignore_for_file: avoid_print
 
 import 'package:flutter/material.dart';
-import 'package:flutter_piwikpro/model/ecommerce_transaction_item.dart';
-import 'package:flutter_piwikpro/flutter_piwikpro.dart';
+import 'package:flutter_analytics_piwik/flutter_piwikpro.dart';
+import 'package:flutter_analytics_piwik/model/ecommerce_transaction_item.dart';
 
 void main() {
-  final _ecommerceTransactionItems = [
+  final ecommerceTransactionItems = [
     EcommerceTransactionItem(category: 'cat1', sku: 'sku1', name: 'name1', price: 20, quantity: 1),
     EcommerceTransactionItem(category: 'cat2', sku: 'sku2', name: 'name2', price: 10, quantity: 1),
     EcommerceTransactionItem(category: 'cat3', sku: 'sku3', name: 'name3', price: 30, quantity: 2),
   ];
   //Replace with your Tracking Server's values
-  const String _siteId = '0c0a8661-8c10-4f59-b8fc-1c926cbac184';
-  const String _baseUrl = 'https://astralprojection.promilci.com';
-  final _flutterPiwik = FlutterPiwikPro.sharedInstance;
+  const String siteId = '0c0a8661-8c10-4f59-b8fc-1c926cbac184';
+  const String baseUrl = 'https://astralprojection.promilci.com';
+  final flutterPiwik = FlutterPiwikPro.sharedInstance;
 
   runApp(MyApp(
-    ecommerceTransactionItems: _ecommerceTransactionItems,
-    siteId: _siteId,
-    baseUrl: _baseUrl,
-    flutterPiwik: _flutterPiwik,
+    ecommerceTransactionItems: ecommerceTransactionItems,
+    siteId: siteId,
+    baseUrl: baseUrl,
+    flutterPiwik: flutterPiwik,
   ));
 }
 
@@ -52,8 +52,7 @@ class MyApp extends StatelessWidget {
                 children: [
                   _buildTextWidget('Configure Tracker', () async {
                     try {
-                      final result =
-                          await flutterPiwik.configureTracker(baseURL: baseUrl, siteId: siteId);
+                      final result = await flutterPiwik.configureTracker(baseURL: baseUrl, siteId: siteId);
                       print(result);
                     } catch (exception) {
                       print(exception);
@@ -67,8 +66,7 @@ class MyApp extends StatelessWidget {
                     'Track Screen',
                     () async {
                       try {
-                        final result =
-                            await flutterPiwik.trackScreen(screenName: "test", title: "test title");
+                        final result = await flutterPiwik.trackScreen(screenName: "test", title: "test title");
                         print(result);
                       } catch (exception) {
                         print(exception);
@@ -90,8 +88,8 @@ class MyApp extends StatelessWidget {
                   }),
                   _buildTextWidget('Track Exception', () async {
                     try {
-                      final result = await flutterPiwik.trackException(
-                          description: "description of an exception", isFatal: false);
+                      final result =
+                          await flutterPiwik.trackException(description: "description of an exception", isFatal: false);
                       print(result);
                     } catch (exception) {
                       print(exception);
@@ -99,8 +97,7 @@ class MyApp extends StatelessWidget {
                   }),
                   _buildTextWidget('Track Download', () async {
                     try {
-                      final result =
-                          await flutterPiwik.trackDownload('http://your.server.com/bonusmap2.zip');
+                      final result = await flutterPiwik.trackDownload('http://your.server.com/bonusmap2.zip');
                       print(result);
                     } catch (exception) {
                       print(exception);
@@ -120,10 +117,7 @@ class MyApp extends StatelessWidget {
                   }),
                   _buildTextWidget('Track Social Interaction', () async {
                     final result = await flutterPiwik.trackSocialInteraction(
-                      network: "facebook",
-                      interaction: "like",
-                      target: 'Target'
-                    );
+                        network: "facebook", interaction: "like", target: 'Target');
                     print(result);
                   }),
                 ],
@@ -139,11 +133,11 @@ class MyApp extends StatelessWidget {
     return TextButton(
       onPressed: onPressed,
       child: Container(
+        color: Colors.blue,
         child: Text(
           title,
           style: const TextStyle(color: Colors.white),
         ),
-        color: Colors.blue,
       ),
     );
   }
