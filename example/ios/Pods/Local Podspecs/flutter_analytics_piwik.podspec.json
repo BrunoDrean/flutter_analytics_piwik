@@ -1,0 +1,35 @@
+{
+  "name": "flutter_analytics_piwik",
+  "version": "1.0.3",
+  "summary": "Alternative package for Piwik SDK",
+  "description": "A new Flutter project.",
+  "homepage": "https://github.com/NonowPoney/flutter_analytics_piwik",
+  "license": {
+    "file": "../LICENSE"
+  },
+  "authors": {
+    "Your Company": "bruno.drean@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/NonowPoney/flutter_analytics_piwik.git"
+  },
+  "source_files": "Classes/**/*",
+  "static_framework": true,
+  "dependencies": {
+    "Flutter": [
+
+    ],
+    "PiwikPROSDK": [
+      "~> 1.1.3"
+    ]
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "pod_target_xcconfig": {
+    "DEFINES_MODULE": "YES",
+    "EXCLUDED_ARCHS[sdk=iphonesimulator*]": "i386"
+  },
+  "swift_versions": "5.0",
+  "swift_version": "5.0"
+}

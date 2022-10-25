@@ -1,0 +1,6 @@
+framework module flutter_analytics_piwik {
+  umbrella header "flutter_analytics_piwik-umbrella.h"
+
+  export *
+  module * { export * }
+}
