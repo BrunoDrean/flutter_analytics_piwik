@@ -3,8 +3,8 @@
 # Run `pod lib lint flutter_piwikpro.podspec` to validate before publishing.
 #
 Pod::Spec.new do |s|
-  s.name             = 'flutter_piwikpro'
-  s.version          = '1.0.0'
+  s.name             = 'flutter_analytics_piwik'
+  s.version          = '1.0.3'
   s.summary          = 'A new Flutter project.'
   s.description      = <<-DESC
 A new Flutter project.
