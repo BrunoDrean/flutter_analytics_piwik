@@ -1,3 +1,5 @@
+## 1.0.6
+revert modular header
 ## 1.0.5
 Test modular header
 ## 1.0.4
