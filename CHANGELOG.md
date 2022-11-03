@@ -1,3 +1,5 @@
+## 1.0.4
+Test arm64
 ## 1.0.3
 * Fix podspec
 ## 1.0.2

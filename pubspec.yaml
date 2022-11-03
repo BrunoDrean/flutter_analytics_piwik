@@ -1,6 +1,6 @@
 name: flutter_analytics_piwik
 description: SDK Flutter for Piwik Analytics
-version: 1.0.3
+version: 1.0.4
 homepage: https://github.com/NonowPoney/flutter_analytics_piwik
 
 environment:

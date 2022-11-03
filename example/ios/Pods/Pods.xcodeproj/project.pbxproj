@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXAggregateTarget section */
@@ -15,6 +15,7 @@
 			dependencies = (
 			);
 			name = Flutter;
+			productName = Flutter;
 		};
 		AAA9E8EDC18703545BE496E3DBDBEEEF /* PiwikPROSDK */ = {
 			isa = PBXAggregateTarget;
@@ -25,6 +26,7 @@
 			dependencies = (
 			);
 			name = PiwikPROSDK;
+			productName = PiwikPROSDK;
 		};
 /* End PBXAggregateTarget section */
 
@@ -85,16 +87,16 @@
 		1D55E177D8A421687482BDDFA71A3827 /* PiwikTransactionBuilder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PiwikTransactionBuilder.h; path = "PiwikPROSDK.xcframework/ios-arm64_i386_x86_64-simulator/PiwikPROSDK.framework/Headers/PiwikTransactionBuilder.h"; sourceTree = "<group>"; };
 		1E2D47AE23F3CD0ED5C4707A2E578D91 /* flutter_analytics_piwik-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "flutter_analytics_piwik-prefix.pch"; sourceTree = "<group>"; };
 		24D5A8243A2BEE21268B6572913D379A /* flutter_analytics_piwik */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = flutter_analytics_piwik; path = flutter_analytics_piwik.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		28ED62A2137804CDFA22BA4FE5CB8FDB /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		28ED62A2137804CDFA22BA4FE5CB8FDB /* Flutter.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; path = Flutter.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2DB9BA115AC32B99E96B185D6E0A1095 /* flutter_analytics_piwik.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = flutter_analytics_piwik.release.xcconfig; sourceTree = "<group>"; };
 		2EC2550009FD0AB6DB331C8C38995C0A /* PiwikPROSDK.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PiwikPROSDK.release.xcconfig; sourceTree = "<group>"; };
 		347A2078F90853AE6CB91250FD969DA6 /* flutter_analytics_piwik.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = flutter_analytics_piwik.modulemap; sourceTree = "<group>"; };
 		40AEA983984A0810FE7909FA7B71205E /* Flutter.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Flutter.release.xcconfig; sourceTree = "<group>"; };
 		44D5D9B709D3BCE4EFC8746FC2ECFD23 /* Pods-Runner-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-acknowledgements.plist"; sourceTree = "<group>"; };
-		4AB69C9F884754C11DEA6BBA4CADC50F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../../../../../../LICENSE; sourceTree = "<group>"; };
+		4AB69C9F884754C11DEA6BBA4CADC50F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../../../../../../LICENSE; sourceTree = "<group>"; };
 		4E92592C9F2FFD5116212ADD7EC7E1A1 /* FlutterPiwikProPlugin.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = FlutterPiwikProPlugin.m; path = ../../../../../../../ios/Classes/FlutterPiwikProPlugin.m; sourceTree = "<group>"; };
 		585E98198B1402B2D790F830B349A082 /* PiwikPROSDK-xcframeworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "PiwikPROSDK-xcframeworks.sh"; sourceTree = "<group>"; };
-		652D7FEF802E771B4940CFAC137CD93F /* PiwikPROSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; path = PiwikPROSDK.xcframework; sourceTree = "<group>"; };
+		652D7FEF802E771B4940CFAC137CD93F /* PiwikPROSDK.xcframework */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = wrapper.xcframework; path = PiwikPROSDK.xcframework; sourceTree = "<group>"; };
 		669E8F25E1897672BDB80B7EB784DA24 /* Pods-Runner */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-Runner"; path = Pods_Runner.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C76F4858513BA86E788DF44BC449939 /* flutter_analytics_piwik-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "flutter_analytics_piwik-umbrella.h"; sourceTree = "<group>"; };
 		6D9733CA9338E33F4440E4806EB5CC25 /* PiwikPROSDK.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PiwikPROSDK.h; path = "PiwikPROSDK.xcframework/ios-arm64_armv7/PiwikPROSDK.framework/Headers/PiwikPROSDK.h"; sourceTree = "<group>"; };
@@ -105,7 +107,7 @@
 		86B50C99805953986BB6860117E08399 /* Pods-Runner.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.debug.xcconfig"; sourceTree = "<group>"; };
 		991B52E6DAA6905C79863B35A354A87F /* flutter_analytics_piwik-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "flutter_analytics_piwik-Info.plist"; sourceTree = "<group>"; };
 		9CDE5A442F9B801B3911E2F1E6D820B7 /* PiwikTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PiwikTransaction.h; path = "PiwikPROSDK.xcframework/ios-arm64_i386_x86_64-simulator/PiwikPROSDK.framework/Headers/PiwikTransaction.h"; sourceTree = "<group>"; };
-		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A3CCEBA0155A26DB398224C33EBA9FEB /* Pods-Runner.profile.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Runner.profile.xcconfig"; sourceTree = "<group>"; };
 		A7A651CAA9858B913798D8E713AB767A /* flutter_analytics_piwik-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "flutter_analytics_piwik-dummy.m"; sourceTree = "<group>"; };
 		A8F562FE5D8C9BA54D382F18C778EB69 /* PiwikTransaction.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PiwikTransaction.h; path = "PiwikPROSDK.xcframework/ios-arm64_armv7/PiwikPROSDK.framework/Headers/PiwikTransaction.h"; sourceTree = "<group>"; };
@@ -124,7 +126,7 @@
 		CB17464D6D14B50500CBD97C1DA593CC /* PiwikTrackedViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PiwikTrackedViewController.h; path = "PiwikPROSDK.xcframework/ios-arm64_i386_x86_64-simulator/PiwikPROSDK.framework/Headers/PiwikTrackedViewController.h"; sourceTree = "<group>"; };
 		D28D0E7EDFAABD971166790E4EE52DF0 /* Pods-Runner-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Runner-Info.plist"; sourceTree = "<group>"; };
 		DDD1841202467E6E615F5740AD503459 /* PiwikPROSDK.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PiwikPROSDK.debug.xcconfig; sourceTree = "<group>"; };
-		F1CFBF4D1EDCCBEE50C3EAF9E85B8C74 /* flutter_analytics_piwik.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = flutter_analytics_piwik.podspec; path = ../../../../../../ios/flutter_analytics_piwik.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F1CFBF4D1EDCCBEE50C3EAF9E85B8C74 /* flutter_analytics_piwik.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; name = flutter_analytics_piwik.podspec; path = ../../../../../../ios/flutter_analytics_piwik.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -184,7 +186,6 @@
 			children = (
 				941837B2D251A291903D72A3A215F6B6 /* Classes */,
 			);
-			name = ios;
 			path = ios;
 			sourceTree = "<group>";
 		};
@@ -210,7 +211,6 @@
 			children = (
 				BDA353937E6B48592E74D7A4BC354BF9 /* example */,
 			);
-			name = ..;
 			path = ..;
 			sourceTree = "<group>";
 		};
@@ -234,7 +234,6 @@
 				C968BE730E3525A8AD88E5E5AAB8BFA6 /* Frameworks */,
 				703DE5871BAC25810842C76B527C58F7 /* Support Files */,
 			);
-			name = PiwikPROSDK;
 			path = PiwikPROSDK;
 			sourceTree = "<group>";
 		};
@@ -270,7 +269,6 @@
 			children = (
 				7B015730FE8299077C4D82C0A2DEF36A /* plugins */,
 			);
-			name = .symlinks;
 			path = .symlinks;
 			sourceTree = "<group>";
 		};
@@ -279,7 +277,6 @@
 			children = (
 				24F4B81B011B05BDC0A05606E06EABF2 /* ios */,
 			);
-			name = flutter_analytics_piwik;
 			path = flutter_analytics_piwik;
 			sourceTree = "<group>";
 		};
@@ -317,7 +314,6 @@
 			children = (
 				671F80673E97FAD94571102651EECFBB /* flutter_analytics_piwik */,
 			);
-			name = plugins;
 			path = plugins;
 			sourceTree = "<group>";
 		};
@@ -345,7 +341,6 @@
 				4E92592C9F2FFD5116212ADD7EC7E1A1 /* FlutterPiwikProPlugin.m */,
 				C54011E625CC88E55558212CA4F3A172 /* SwiftFlutterPiwikProPlugin.swift */,
 			);
-			name = Classes;
 			path = Classes;
 			sourceTree = "<group>";
 		};
@@ -374,7 +369,6 @@
 			children = (
 				E12A1EA63B67BCDA3B44FD1C0B9CF841 /* ios */,
 			);
-			name = example;
 			path = example;
 			sourceTree = "<group>";
 		};
@@ -411,7 +405,6 @@
 			children = (
 				662155B82C5663D44A1D58C1BC743319 /* .symlinks */,
 			);
-			name = ios;
 			path = ios;
 			sourceTree = "<group>";
 		};

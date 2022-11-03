@@ -4,7 +4,7 @@
 #
 Pod::Spec.new do |s|
   s.name             = 'flutter_analytics_piwik'
-  s.version          = '1.0.3'
+  s.version          = '1.0.4'
   s.summary          = 'Alternative package for Piwik SDK'
   s.description      = <<-DESC
 A new Flutter project.
@@ -16,9 +16,9 @@ A new Flutter project.
   s.source_files = 'Classes/**/*'
   s.static_framework = true
   s.dependency 'Flutter'
-  s.dependency 'PiwikPROSDK', '~> 1.1.5'
+  s.dependency 'PiwikPROSDK', :modular_headers => true
   s.platform = :ios, '9.0'
 
-  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'i386' }
+  s.pod_target_xcconfig = { 'DEFINES_MODULE' => 'YES', 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   s.swift_version = '5.0'
 end
