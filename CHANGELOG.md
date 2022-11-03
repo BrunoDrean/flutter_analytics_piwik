@@ -1,3 +1,5 @@
+## 1.0.5
+Test modular header
 ## 1.0.4
 Test arm64
 ## 1.0.3
